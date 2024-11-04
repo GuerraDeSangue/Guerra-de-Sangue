@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máfia Online</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <main>
+    <section id="criar-jogador">
+      <h2>Criar Jogador</h2>
+      <form id="form-criar-jogador">
+        <label for="apelido">Apelido:</label>
+        <input type="text" id="apelido" name="apelido"><br><br>
+        <label for="profissao">Profissão:</label>
+        <select id="profissao" name="profissao">
+          <option value="Ladrao">Ladrao - 20% a mais de recompensas nos roubos</option>
+          <option value="Assassino">Assassino - 30% a mais de chance de vitória em luta</option>
+          <option value="Cafetao">Cafetao - 15% a mais de recompensa nas putas</option>
+          <option value="Empresario">Empresario - 20% a mais da venda de ações da bolsa e 15% de desconto na compra de ações da bolsa</option>
+        </select><br><br>
+        <a href="perfil.html">
+            <button id="btn-criar-jogador" type="button">Criar Jogador</button>
+          </a>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
